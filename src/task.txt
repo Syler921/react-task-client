@@ -1,0 +1,17 @@
+Create the following in React:
+1. Form:
+	- Make a submission form with the following fields:
+		- First Name
+		- Last Name
+		- Email
+	- The fields should have colored borders that will change to a random color (the same for all fields) on losing focus
+	- There should be a submit button
+	- Submission:
+		- The info should be sent to an endpoint
+		- The submit button should turn green if the answer is 200
+		- The button should turn red if the submission fails
+
+2. Send them to an endpoint:
+	- use https://github.com/web-steel/koa.api.skeleton for a skeleton API
+	- If the name has less than 5 characters the submission should fail
+	- otherwise, the submission should succeed
